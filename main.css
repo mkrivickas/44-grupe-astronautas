@@ -1,0 +1,16 @@
+header,
+main,
+footer {
+  width: 800px;
+  margin-left: calc((100% - 800px) / 2);
+}
+
+header {
+  background-color: lightblue;
+}
+main {
+  background-color: lightcoral;
+}
+footer {
+  background-color: lightgoldenrodyellow;
+}
