@@ -12,21 +12,44 @@ body {
 header,
 main,
 footer {
-  display: inline-block;
+  display: flex;
   width: 800px;
   margin: 30px calc((100% - 800px) / 2);
 }
 
 header {
-  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
 }
+
+img{
+  height: 30px;
+  width: 200px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+nav{
+  display: flex;
+  gap: 30px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover{
+  color: #55337a;
+  text-decoration: underline;
+}
+
 main {
-  /* background-color: lightcoral; */
+  background-color: lightcoral;
 }
+
 footer {
   background-color: lightgoldenrodyellow;
 }
 
-main > p {
-  background-color: red;
-}
