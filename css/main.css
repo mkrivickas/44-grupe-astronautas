@@ -9,9 +9,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-header,
-main,
-footer {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,53 +18,46 @@ footer {
 
 }
 
-header {
-  align-items: center;
-}
-
-header > img{
+.logo{
   height: 30px;
   width: 200px;
   object-fit: contain;
   object-position: left center;
 }
 
-nav{
+.main-nav{
   display: flex;
   gap: 30px;
 }
 
-nav > a{
+.link{
   color: #000;
   text-decoration: none;
   font-size: 18px;
 }
 
-nav > a:hover{
+.link:hover{
   color: #55337a;
   text-decoration: underline;
 }
 
-main {
-}
-
-main > div{
+.left-column{
   display: flex;
   flex-direction: column;
   gap: 30px;
   width: 40%;
 }
 
-h1{
-
+.main-title{
+  font-size: 32px;
 }
 
-h1 > span {
+.main-title > span {
   display: block;
   font-weight: normal;
 }
 
-h1::after{
+.main-title::after{
   content: '';
   display: block;
   width: 100px;
@@ -75,16 +66,18 @@ h1::after{
   background-color: #55337a;
 }
 
-p{}
+.description{
+  color: #555
+}
 
-div > div{
+.button-group{
   display: flex;
   flex-wrap: wrap;
   font-size: 18px;  /* 18px = 1em*/
   gap: 1em;
 }
 
-div > div > a{
+.button{
   display: inline-block;
   padding: 1em 2.5em;
   background-color: #55337a;
@@ -98,16 +91,19 @@ div > div > a{
   user-select: none;
 }
 
-div > div > a:hover{
+.button:hover{
   background-color: #fff;
   color:#55337a;
 }
 
-main > img{
+.right-column{
   width: 55%;
 }
 
-footer {
-  background-color: lightgoldenrodyellow;
+.socials{
+
 }
 
+.copyright{
+  
+}
