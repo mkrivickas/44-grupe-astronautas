@@ -18,28 +18,7 @@ body {
 
 }
 
-.logo{
-  height: 30px;
-  width: 200px;
-  object-fit: contain;
-  object-position: left center;
-}
 
-.main-nav{
-  display: flex;
-  gap: 30px;
-}
-
-.link{
-  color: #000;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.link:hover{
-  color: #55337a;
-  text-decoration: underline;
-}
 
 .left-column{
   display: flex;
@@ -70,40 +49,6 @@ body {
   color: #555
 }
 
-.button-group{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 18px;  /* 18px = 1em*/
-  gap: 1em;
-}
-
-.button{
-  display: inline-block;
-  padding: 1em 2.5em;
-  background-color: #55337a;
-  color: #fff;
-  font-size: 18px;  /* 18px = 1em*/
-  line-height: 1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 1.6em;
-  border: 0.1em solid #55337a;
-  user-select: none;
-}
-
-.button:hover{
-  background-color: #fff;
-  color:#55337a;
-}
-
 .right-column{
   width: 55%;
-}
-
-.socials{
-
-}
-
-.copyright{
-  
 }
